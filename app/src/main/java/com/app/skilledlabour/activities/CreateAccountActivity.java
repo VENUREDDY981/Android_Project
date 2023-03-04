@@ -23,6 +23,7 @@ public class CreateAccountActivity extends AppCompatActivity implements View.OnC
         tvCreateAccount.setOnClickListener(this);
     }
 
+
     @Override
     public void onClick(View v) {
         switch (v.getId()){
