@@ -10,7 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class common_helper {
-
     public static boolean getAdminLogin(String email, String password){
         return email.equals("admin@gmail.com") && password.equals("admin123");
     }
@@ -20,7 +19,6 @@ public class common_helper {
     public static boolean getLabourLogin(String email, String password){
         return email.equals("labour@gmail.com") && password.equals("labour123");
     }
-
     public static List<Skill> getSkills(){
         List<Skill> list = new ArrayList<>();
         list.add(new Skill(1,"electricians","img"));
